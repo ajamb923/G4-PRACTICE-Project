@@ -1,0 +1,16 @@
+# terraform init 
+    - Initialize terraform
+    - Build modules
+    - Installs plugins 
+    - This command will look at the config in all terraform files.
+	- It will look for all of the providers that we have defined.
+    - Lets say we have AWS, it will download the necessary plugins that we need to interact with the AWS API.
+
+# terraform plan =  (optional) - sanity check
+	- Dry run of your code
+	- See all the changes that will take place
+	- Wil show you if it will create, modify, or delete any instances
+	- When you run the code:
+			- A green + means that resource will be created.
+			- A red - means that resource will be deleted.
+            - An orange ~ means that resource will be modified.
